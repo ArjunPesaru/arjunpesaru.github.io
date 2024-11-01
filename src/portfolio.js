@@ -457,6 +457,15 @@ const experiences = {
 const certifications = {
   certifications: [
     {
+      title: "Professional Skills for Academic Success",
+      subtitle: "-Northeastern University",
+      logo_path: "neu.png",
+      certificate_link:
+        "https://api.badgr.io/public/assertions/zLr6MCp3TkGpsOHiBAB_uA?identity__email=pesaru.a%40northeastern.edu",
+      alt_name: "NEU",
+      color_code: "#FFFFFF",
+    },
+    {
       title: "Formula Barath ",
       subtitle: "-MathWorks",
       logo_path: "mathworks.png",
@@ -499,7 +508,7 @@ const certifications = {
       certificate_link:
         "https://catalog-education.oracle.com/pls/certview/sharebadge?id=6B8ED96E01E8C46E43D6B1E6A1046869E90E5856AAC771F989404BA2DFEB6E77",
       alt_name: "Microsoft",
-      color_code: "#D83B0199",
+      color_code: "#FFFFFF",
     },
     {
       title: "Data Structures and Algorithims",
@@ -508,7 +517,7 @@ const certifications = {
       certificate_link:
         "https://www.hackerrank.com/certificates/06f1e23cc1cb",
       alt_name: "IBM",
-      color_code: "#1F70C199",
+      color_code: "#FFFFFF",
     },
     // {
     //   title: "Advanced ML on GCP",
