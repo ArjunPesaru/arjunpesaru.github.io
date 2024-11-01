@@ -16,7 +16,7 @@ const seo = {
   //   url: "http://ArjunPesaru.com/",
   // },
 };
-
+ 
 //Home Page
 const greeting = {
   title: "Arjun Pesaru",
