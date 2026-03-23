@@ -9,21 +9,21 @@ const settings = {
 const seo = {
   title: "Arjun's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "3+ years of end-to-end product experience, a bias toward action, and a genuine obsession with building things that scale technically and for the people using them.",
   // og: {
   //   title: "Arjun Peasru's Portfolio",
   //   type: "website",
   //   url: "http://ArjunPesaru.com/",
   // },
 };
- 
+
 //Home Page
 const greeting = {
   title: "Arjun Pesaru",
   logo_name: "Arjun Pesaru",
   nickname: "Friendly Neighbourhood Engineer",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "3+ years of end-to-end product experience, a bias toward action, and a genuine obsession with building things that scale technically and for the people using them.",
   resumeLink:
     "https://drive.google.com/file/d/1NKT3tx4Z1qgPqQDffGOITb0Q8zkmuXIY/view?usp=sharing",
   portfolio_repository: "https://github.com/Arjun1919/masterPortfolio",
@@ -379,8 +379,7 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Northeastern University",
-      // subtitle: "Khoury College of Computer Science",
+      title: "Northeastern University – Khoury College of Computer Science",
       subtitle: "M.S. in Data Science",
       logo_path: "northeastern.png",
       alt_name: "Khoury College of Computer Science",
@@ -394,10 +393,10 @@ const degrees = {
     },
     {
       title: "Vellore Institute of Information Technology, Vellore",
-      subtitle: "B.Tech. in Mechanical Engineering",
+      subtitle: "Bachelor of Science in Computer Science",
       logo_path: "vit.png",
       alt_name: "VIT Vellore",
-      duration: "Aug 2019 - May 2023",
+      duration: "2018 - 2023",
       descriptions: [
         "⚡ Worked as a grader for courses such as Problem Solving and Programming and Statistics, assisting in evaluating student work and supporting academic instruction.",
         "⚡ Chancellor’s Award: Recognized as a Special Achiever & Achiever on University Day for exemplary performance at international events, representing the institute.",
@@ -405,52 +404,63 @@ const degrees = {
       ],
       website_link: "https://vit.ac.in/",
     },
-    
   ],
 };
 const experiences = {
   experience: [
     {
-      title: "Graduate Teaching Assitant",
-      // subtitle: "Khoury College of Computer Science",
-      subtitle: "Khoury College of Computer Science",
-      logo_path: "khoury.png",
-      alt_name: "Khoury College of Computer Science",
-      duration: "Sept 2024 - Present",
+      title: "Forward Deployed AI Engineer",
+      subtitle: "Wellist",
+      company_url: "https://wellist.com/",
+      logo_path: "wellist.png",
+      alt_name: "Wellist",
+      location: "Boston, MA",
+      duration: "05/2025 – 12/2025",
       descriptions: [
-        "⚡ Assisted in conducting lab sessions and troubleshooting coding issues for a class of 300 students in the Foundations of Data Science course, ensuring smooth progression of hands-on exercises.",
-        "⚡ Held office hours and review sessions to provide personalized support, clarifying complex data science concepts and guiding students through problem-solving challenges.",
-        "⚡ Provided constructive feedback on programming assignments and statistical analyses, helping students improve their technical skills and understanding of foundational data science principles.",
+        "Designed and deployed production-grade AI integrations directly inside enterprise customer environments using Python, LangChain, and LLMs; translated ambiguous, high-stakes requirements into scoped deployment architectures across 5 enterprise clients on 150GB+ of structured data, taking solutions from rapid prototypes to production.",
+        "Architected the connective tissue between AI pipelines and live customer infrastructure — REST APIs, legacy data silos, and GCP security perimeters with full authentication, authorization, and observability layers; restructured SQL and BigQuery schema, improving query performance by 40% and driving measurable ROI for enterprise clients.",
+        "Built evaluation pipelines and observability frameworks with granular tracing, latency monitoring, and safety guardrails to ensure deployed systems met enterprise reliability, accuracy, and secure system design requirements in production.",
+        "Embedded directly with customer engineering teams to co-build integrations, scope and resolve deployment friction points, and convert repeatable blockers into reusable modules; drove end-user adoption by 50%.",
       ],
-      website_link: "https://www.khoury.northeastern.edu/",
     },
     {
-      title: "Machine Learning Engineer",
+      title: "Graduate Research Scientist",
+      subtitle: "Northeastern University",
+      company_url: "https://www.northeastern.edu/",
+      logo_path: "northeastern.png",
+      alt_name: "Northeastern University",
+      location: "Boston, MA",
+      duration: "08/2024 – 04/2025",
+      descriptions: [
+        "Researched and benchmarked pretrained model fine-tuning strategies using HuggingFace Transformers, PyTorch, and Keras; built evaluation pipelines to assess model accuracy, bias, latency, and failure modes across datasets.",
+        "Mentored 300+ students in applied AI and Python-based ML workflows; translated complex system behavior including agentic failure modes and edge cases into clear, actionable narratives for non-technical stakeholders.",
+      ],
+    },
+    {
+      title: "AI Engineer",
       subtitle: "Euler Motors",
+      company_url: "https://www.eulermotors.com/en/",
       logo_path: "euler.png",
-      alt_name: "VIT Vellore",
-      duration: " Dec 2022 - Dec 2023",
+      alt_name: "Euler Motors",
+      location: "Delhi, IN",
+      duration: "05/2022 – 12/2023",
       descriptions: [
-        "⚡ Built and deployed real-time data pipelines for vehicle telemetry, reducing latency by 20% and improving data-driven decision-making and data acquisition",
-        "⚡ Designed and optimized scalable serverless solutions with AWS Lambda, S3, and DynamoDB, increasing data pipeline efficiency by 25%.",
-        "⚡ Implemented machine learning models (DQN, PPO) for vehicle path optimization, boosting system performance by 15% while collaborating with product and engineering teams.",
+        "Built and deployed production ML pipelines using Python, PySpark, and GCP-native architecture; containerized AI services with full CI/CD, authentication, monitoring, and distributed tracing to meet enterprise reliability and secure deployment.",
+        "Designed event-driven data processing workflows and service-oriented integrations with tool-calling abstractions; applied Bayesian A/B testing to measure ROI of AI-driven optimizations.",
       ],
-      website_link: "https://www.eulermotors.com/en/",
     },
     {
-      title: "Data Engineer Intern",
+      title: "Machine Learning Intern",
       subtitle: "Spinny",
+      company_url: "https://www.spinny.com/",
       logo_path: "spinny.png",
-      alt_name: "VIT Vellore",
-      duration: "April 2022 - sept 2022",
+      alt_name: "Spinny",
+      location: "Hyderabad, IN",
+      duration: "01/2021 – 05/2022",
       descriptions: [
-        "⚡ Developed scalable data pipelines using AWS Lambda and Redshift, reducing data processing time by 30%",
-        "⚡ Led customer sentiment analysis using LSTM, resulting in a 25% improvement in customer engagement and acquisition.",
-        "⚡ Implemented automated production support by reporting dashboards using Tableau, improving operational insights and marketing strategies across multiple departments. ",
+        "Fine-tuned HuggingFace Transformer models (BERT, T5) using PyTorch for text classification achieving 89% precision; integrated third-party data sources via REST APIs and RAG-style retrieval into AI-powered pricing pipelines deployed.",
       ],
-      website_link: "https://www.spinny.com/",
     },
-    
   ],
 };
 
@@ -483,15 +493,15 @@ const certifications = {
       alt_name: "deeplearning.ai",
       color_code: "#FFFFFF",
     },
-    {
-      title: "Robotics",
-      subtitle: "- Georgia Tech",
-      logo_path: "georgiatech.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/AJFQLWEZ3UZQ",
-      alt_name: "Google",
-      color_code: "#FFFFFF",
-    },
+    // {
+    //   title: "Robotics",
+    //   subtitle: "- Georgia Tech",
+    //   logo_path: "georgiatech.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/AJFQLWEZ3UZQ",
+    //   alt_name: "Google",
+    //   color_code: "#FFFFFF",
+    // },
     {
       title: "Machine Learning",
       subtitle: "- Holczer Balazs",
@@ -514,8 +524,7 @@ const certifications = {
       title: "Data Structures and Algorithims",
       subtitle: "- Hacker Rank",
       logo_path: "hackerrank.png",
-      certificate_link:
-        "https://www.hackerrank.com/certificates/06f1e23cc1cb",
+      certificate_link: "https://www.hackerrank.com/certificates/06f1e23cc1cb",
       alt_name: "IBM",
       color_code: "#FFFFFF",
     },
@@ -578,7 +587,6 @@ const certifications = {
 
 // Experience Page
 
-
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
@@ -597,13 +605,12 @@ const experience = {
           logo_path: "tiktok_logo.png",
           duration: "Dec 2022 - Dec 2023",
           location: "New Delhi, India",
-          description:[
+          description: [
             "⚡ Built and deployed real-time data pipelines for vehicle telemetry, reducing latency by 20% and improving data-driven decision-making and data acquisition",
             "⚡ Designed and optimized scalable serverless solutions with AWS Lambda, S3, and DynamoDB, increasing data pipeline efficiency by 25%.",
             "⚡ Implemented machine learning models (DQN, PPO) for vehicle path optimization, boosting system performance by 15% while collaborating with product and engineering teams.",
           ],
           color: "#000000",
-
         },
         {
           title: "Associate AI Engineer",
@@ -764,7 +771,8 @@ const publications = {
       name: "AI Assistant for document management Using LangChain and Pinecone",
       createdAt: "2023-07-02T00:00:00Z",
       description: "Paper published in IRJMETS 2023",
-      url: "https://www.irjmets.com/uploadedfiles/paper//issue_6_june_2023/42630/final/fin_irjmets1687886863.pdf",
+      url:
+        "https://www.irjmets.com/uploadedfiles/paper//issue_6_june_2023/42630/final/fin_irjmets1687886863.pdf",
     },
     // {
     //   id: "mdp-diffusion",
@@ -789,7 +797,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "arjun.png",
     description:
-      "If you want to talk more about robotics, AI/ML, Mechanical Design, or just want to discuss an interesting problem to solve, feel free to drop a connection request on Linkedin or email me",
+      "If you want to talk more about AI/ML, Data Science, or building great products, feel free to drop a connection request on LinkedIn or email me",
   },
   blogSection: {
     title: "Blogs",

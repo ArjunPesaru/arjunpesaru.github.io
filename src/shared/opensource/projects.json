@@ -1,11 +1,11 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "Resume Analyser Chatbot",
-      "createdAt": "2024-04-13T04:18:19Z",
-      "url": "https://github.com/Arjun1919/mdp-diffusion",
-      "description": "Created a chatbot to analyze resumes using Natural Language Processing methods in order to improve the hiring process.",
+      "id": "proj_clinical_agent",
+      "name": "Clinical Decision Support Agent",
+      "createdAt": "2024-11-01T00:00:00Z",
+      "url": "",
+      "description": "RAG-powered clinical agent that ingests patient records to surface risk flags and treatment suggestions with HIPAA-aware audit logging.",
       "isFork": false,
       "languages": [
         {
@@ -13,97 +13,160 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "LangChain",
+          "iconifyClass": "simple-icons:langchain"
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "OpenAI",
+          "iconifyClass": "simple-icons:openai"
+        },
+        {
+          "name": "GCP",
+          "iconifyClass": "logos-google-cloud"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos-postgresql"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "Machine Learning Techniques to Detect Autism Spectrum Disorder",
-      "createdAt": "2024-03-13T20:41:33Z",
-      "url": "https://github.com/Arjun1919/explainable-cnn",
-      "description": "📦 Designed and executed experiments to uncover key trends in patient data, utilizing neural networks.",
+      "id": "proj_fraud_detection",
+      "name": "Real-Time Fraud Detection Pipeline",
+      "createdAt": "2024-09-01T00:00:00Z",
+      "url": "",
+      "description": "Event-driven fraud scoring system using streaming transactions, ML classification, and automated alerting deployed on AWS with full CI/CD.",
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Fine-Tuning LLAMA 2 with Custom Dataset Using LoRA and QLoRA",
-      "createdAt": "2024-03-06T16:26:54Z",
-      "url": "https://github.com/Arjun1919/masterPortfolio",
-      "description": "🔥 This project fine-tunes large language models by leveraging domain-specific data, enabling the models to specialize in industry-related tasks with improved accuracy and relevance, reducing errors by up to 30%.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Redshift",
+          "iconifyClass": "simple-icons:amazonredshift"
         },
         {
-          "name": "Dockerfile",
+          "name": "Kafka",
+          "iconifyClass": "simple-icons:apachekafka"
+        },
+        {
+          "name": "Docker",
           "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "GitHub Actions",
+          "iconifyClass": "simple-icons:githubactions"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "Heart Disease Prediction Using Machine Learning ",
-      "createdAt": "2024-02-11T14:50:20Z",
-      "url": "https://github.com/Arjun1919/react-awesome-shapes",
-      "description": "🌀 Created predictive models using KNN and Random Forest, achieving 91.8% accuracy.",
+      "id": "proj_recommendation_engine",
+      "name": "Personalized Recommendation Engine",
+      "createdAt": "2024-07-01T00:00:00Z",
+      "url": "",
+      "description": "Full-stack product discovery platform combining vector search and a LangChain conversational agent with a TypeScript frontend and Python backend.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "React",
+          "iconifyClass": "logos-react"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "GCP",
+          "iconifyClass": "logos-google-cloud"
+        },
+        {
+          "name": "LangChain",
+          "iconifyClass": "simple-icons:langchain"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
         }
       ]
     },
-
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "Cell Segementation using CV",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/Arjun1919/react-liquidswipe",
-      "description": "🚀 ",
+      "id": "proj_ai_deployment_framework",
+      "name": "Multi-Tenant AI Deployment Framework",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "url": "",
+      "description": "Reusable agentic deployment framework with LangGraph, multi-tenant API routing, and Kubernetes orchestration — built for enterprise-scale onboarding.",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "GCP",
+          "iconifyClass": "logos-google-cloud"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        },
+        {
+          "name": "Kubernetes",
+          "iconifyClass": "simple-icons:kubernetes"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        }
+      ]
+    },
+    {
+      "id": "proj_llm_eval_platform",
+      "name": "LLM Evaluation & Fine-Tuning Platform",
+      "createdAt": "2024-05-01T00:00:00Z",
+      "url": "",
+      "description": "End-to-end platform to fine-tune, evaluate, and monitor LLMs on custom datasets using LoRA, MLflow, and automated regression harnesses.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "PyTorch",
+          "iconifyClass": "logos-pytorch"
+        },
+        {
+          "name": "HuggingFace",
+          "iconifyClass": "simple-icons:huggingface"
+        },
+        {
+          "name": "AWS",
+          "iconifyClass": "logos-aws"
+        },
+        {
+          "name": "MLflow",
+          "iconifyClass": "simple-icons:mlflow"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "simple-icons:docker"
         }
       ]
     }

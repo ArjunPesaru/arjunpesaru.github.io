@@ -37,8 +37,32 @@ class DegreeCard extends Component {
                   {degree.title}
                 </h2>
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  {degree.subtitle}
+                  {degree.company_url ? (
+                    <a
+                      href={degree.company_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: theme.text }}
+                    >
+                      {degree.subtitle}
+                    </a>
+                  ) : (
+                    degree.subtitle
+                  )}
                 </h3>
+                {degree.location && (
+                  <p
+                    className="card-location"
+                    style={{
+                      color: theme.text,
+                      margin: "2px 0 0 0",
+                      fontSize: "14px",
+                      fontFamily: "Google Sans Regular",
+                    }}
+                  >
+                    {degree.location}
+                  </p>
+                )}
               </div>
               <div className="body-header-duration">
                 <h3 className="duration" style={{ color: theme.text }}>
