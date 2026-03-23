@@ -14,11 +14,13 @@
         },
         {
           "name": "LangChain",
-          "iconifyClass": "simple-icons:langchain"
+          "iconifyClass": "simple-icons:langchain",
+          "color": "#1C3C3C"
         },
         {
           "name": "OpenAI",
-          "iconifyClass": "simple-icons:openai"
+          "iconifyClass": "simple-icons:openai",
+          "color": "#412991"
         },
         {
           "name": "GCP",
@@ -30,7 +32,8 @@
         },
         {
           "name": "FastAPI",
-          "iconifyClass": "simple-icons:fastapi"
+          "iconifyClass": "simple-icons:fastapi",
+          "color": "#009688"
         }
       ]
     },
@@ -52,19 +55,22 @@
         },
         {
           "name": "Redshift",
-          "iconifyClass": "simple-icons:amazonredshift"
+          "iconifyClass": "simple-icons:amazonredshift",
+          "color": "#8C4FFF"
         },
         {
           "name": "Kafka",
-          "iconifyClass": "simple-icons:apachekafka"
+          "iconifyClass": "simple-icons:apachekafka",
+          "color": "#231F20"
         },
         {
           "name": "Docker",
-          "iconifyClass": "simple-icons:docker"
+          "iconifyClass": "logos-docker"
         },
         {
           "name": "GitHub Actions",
-          "iconifyClass": "simple-icons:githubactions"
+          "iconifyClass": "simple-icons:githubactions",
+          "color": "#2088FF"
         }
       ]
     },
@@ -94,11 +100,13 @@
         },
         {
           "name": "LangChain",
-          "iconifyClass": "simple-icons:langchain"
+          "iconifyClass": "simple-icons:langchain",
+          "color": "#1C3C3C"
         },
         {
           "name": "FastAPI",
-          "iconifyClass": "simple-icons:fastapi"
+          "iconifyClass": "simple-icons:fastapi",
+          "color": "#009688"
         }
       ]
     },
@@ -124,15 +132,16 @@
         },
         {
           "name": "Kubernetes",
-          "iconifyClass": "simple-icons:kubernetes"
+          "iconifyClass": "logos-kubernetes"
         },
         {
           "name": "Docker",
-          "iconifyClass": "simple-icons:docker"
+          "iconifyClass": "logos-docker"
         },
         {
           "name": "FastAPI",
-          "iconifyClass": "simple-icons:fastapi"
+          "iconifyClass": "simple-icons:fastapi",
+          "color": "#009688"
         }
       ]
     },
@@ -154,7 +163,8 @@
         },
         {
           "name": "HuggingFace",
-          "iconifyClass": "simple-icons:huggingface"
+          "iconifyClass": "simple-icons:huggingface",
+          "color": "#FF9D00"
         },
         {
           "name": "AWS",
@@ -162,11 +172,12 @@
         },
         {
           "name": "MLflow",
-          "iconifyClass": "simple-icons:mlflow"
+          "iconifyClass": "simple-icons:mlflow",
+          "color": "#0194E2"
         },
         {
           "name": "Docker",
-          "iconifyClass": "simple-icons:docker"
+          "iconifyClass": "logos-docker"
         }
       ]
     }
